@@ -50,7 +50,7 @@ class Book:
             # 빌려간 사람이 있다!
             pass
         
-        if self.rent_user is None:  # self.rent_user가 None상태인가?
+        if self.rent_user == None:  # self.rent_user가 None상태인가?
             print('대여자 없음.')
             
     # 어떤 사람의 출생년도를 파라미터로 받아서, 대여 가능 여부를 판단해주는 메쏘드.
