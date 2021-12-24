@@ -63,6 +63,8 @@ print(result)
 user1 = User()
 user1.set_data( '조경진', 1988, 10000 )
 
+print(f'사용자1의 이름 : {user1.name}')
+
 user1.print_user_info()
 
 
