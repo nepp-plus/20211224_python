@@ -18,6 +18,8 @@ class Book:
         self.rf = rent_fee
         self.la = limit_age
         
+        main_title = '임시 제목'
+        
     # 책의 정보를 출력하는 기능.
     def print_book_info(self):  # 파라미터 필요 없다.
         print('===== 도서 정보 출력 =====')

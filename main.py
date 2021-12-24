@@ -28,13 +28,25 @@ book3.set_data('뽀로로', 500, 0)
 book3.print_book_info()
 
 
+test02 = '테스트 변수'
+
 # 함수와의 비교를 위한 예시 코드.
 def add_and_print(num1, num2):
     print(num1 + num2)
+    print(test02)
+    
+    test = 10
     
 
 add_and_print(5, 11)
 
 
-
 book1.is_rent_available( 2000 )
+
+
+num = 10
+
+if num > 5:
+    result = '5보다 크다.'
+    
+print(result)
