@@ -12,6 +12,10 @@ class Book:
         self.t = title
         self.rf = rent_fee
         self.la = limit_age
+        
+        # 이 책을 빌려간 사람이 누구인가? 를 기록 할 변수.
+        # 빌려간사람이 없다고 기록해두자.
+        self.rent_user = None
     
     
     # 책의 데이터들을 세팅하는 기능 - 메쏘드 : set_data
