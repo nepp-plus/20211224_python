@@ -21,4 +21,8 @@ book2.set_data('드래곤볼', 1000, 15)
 # 두번째 책의 정보 출력
 book2.print_book_info()
 
-
+# 연습문제. 연령제한이 0 => 그때는 전체 이용가로 나타나도록.
+# 연령제한이 그 외의 숫자 => ~세 이용가로 나타나도록.
+book3 = Book()
+book3.set_data('뽀로로', 500, 0)
+book3.print_book_info()

@@ -23,4 +23,9 @@ class Book:
         print('===== 도서 정보 출력 =====')
         print(f'제목 : {self.t}')  # 명령을 시킨 책의 제목에 접근
         print(f'대여료 : {self.rf}')
-        print(f'연령제한 : {self.la}세 이용가')
+        
+        # self.la 에 담긴 값에 따라 -> 다르게 출력 (if 활용)
+        if self.la == 0:
+            print(f'연령제한 : 전체 이용가')
+        else:
+            print(f'연령제한 : {self.la}세 이용가')
