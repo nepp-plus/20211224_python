@@ -1,6 +1,12 @@
 
 class User:
     
+    def __init__(self, name='이름없음', birth_year = 0, point = 0):
+        self.name = name
+        self.birth_year = birth_year
+        self.point = point
+        
+    
     def set_data(self, name, birth_year, point):
         # self.변수는,  self 내부에 달려있는 변수.
         # 파라미터로 들어오는 변수와는 전혀 별개의 변수.

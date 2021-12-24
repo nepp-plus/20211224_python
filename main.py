@@ -75,3 +75,10 @@ user2.birth_year = 2005
 user2.point = 5000
 
 user2.print_user_info()
+
+# 사용자 클래스에도 생성자 추가. 이름 / 출생 년도 / 포인트 한꺼번에 입력.
+# 기존 기본생성자()  유지해보자.
+
+user3 = User( '이아동', 2012, 1000 )
+
+user3.print_user_info()
