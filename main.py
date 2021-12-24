@@ -3,12 +3,12 @@ from user import User # book.py 파일안에서 => Book 클래스를 main.py에 
 # 만들어둔 클래스들을 활용해서 실제 동작 관련 코드 작성
 
 # 책의 인스턴스 하나를 생성. + 변수에 담아두자.
-book1 = Book()
+book1 = Book('타짜', 700, 19)  # Book 클래스의 생성자에서는 파라미터 3개 요구 (하도록 수정됨), 사용시에는 arguments 를 안보내고 있다.
 
 # 방금 만든 책의 데이터 설정. (타짜, 700, 19)
 
 # set_date 메쏘드의 self 파라미터에는 => book1이 대입됨.
-book1.set_data('타짜', 700, 19)  # 전달인자(arguments)들을, self 파라미터만 제외하고 작성.
+# book1.set_data('타짜', 700, 19)  # 전달인자(arguments)들을, self 파라미터만 제외하고 작성.
 
 book1.print_book_info()
 
