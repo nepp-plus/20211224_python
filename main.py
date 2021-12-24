@@ -1,4 +1,5 @@
-from book import Book # book.py 파일안에서 => Book 클래스를 main.py에 가져오기.
+from book import Book
+from user import User # book.py 파일안에서 => Book 클래스를 main.py에 가져오기.
 # 만들어둔 클래스들을 활용해서 실제 동작 관련 코드 작성
 
 # 책의 인스턴스 하나를 생성. + 변수에 담아두자.
@@ -58,3 +59,8 @@ print(result)
 
 # 사용자 한명 생성. '본인이름', 출생년도, 10000 으로 데이터 세팅.
 # 정보 출력하기
+
+user1 = User()
+user1.set_data( '조경진', 1988, 10000 )
+
+user1.print_user_info()
